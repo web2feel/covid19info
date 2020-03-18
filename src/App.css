@@ -1,33 +1,26 @@
-.App {
+.head{
   text-align: center;
+  padding: 2em;
+}
+.head h1{
+  font-weight: 700;
+  line-height: 1;
+}
+.head h1 span{
+  display: block;
+  font-size: 1.6rem;
+  font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.global-info{
+  padding:1.6em 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.global-info h2 span{
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
